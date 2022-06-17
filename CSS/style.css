@@ -1,0 +1,133 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    font-size: 2rem;
+    background-color: rgb(32, 93, 151);
+    color: rgb(135, 171, 204);
+    justify-content: space-between;
+    padding: 50px 40px;
+    border-bottom: solid 8px rgb(3, 33, 61);
+}
+
+a {
+    padding: 20px;
+    color: rgb(135, 171, 204);   
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    width: 1200px;
+}
+
+.big_square {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(135, 171, 204);
+    display: inline-block;
+}
+
+.little_square {
+    position: absolute;
+    background-color: rgb(135, 204, 135);
+    top:0;
+    left: 0;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.middle_square {
+    position: absolute;
+    background-color: rgb(135, 204, 135);
+    top: 100px;
+    left: 100px;
+    width: 150px;
+    height: 250px;
+}
+
+.alone_rectangle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(135, 204, 135);
+    width: 150px;
+    height: 250px;
+}
+
+.middle_rectangle{
+    background-color: rgb(135, 204, 135);
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+}
+
+.little_rectangle {
+    position: absolute;
+    background-color: rgb(135, 204, 135);
+    width: 160px;
+    height: 150px;
+    left: 0;
+    top: 200px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+p{
+    width: 60%;
+    height: 300px;
+}
+.big_square_left {
+    position: relative;
+    width: 250px;
+    height: 330px;
+    background-color: rgb(135, 171, 204);
+    display: inline-block;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.big_square_right {
+    position: relative;
+    width: 250px;
+    height: 330px;
+    background-color: rgb(135, 171, 204);
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(32, 93, 151);
+    margin-top: 50px;
+    border-top: solid 5px rgb(3, 33, 61);
+}
+
+.footer > a {
+    font-size: 30px;
+}
+
+.legal {
+    color: rgb(135, 171, 204);
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 2em;
+}
